@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: white;
+}
+.nav {
+  overflow: hidden;
+}
+a {
+  margin-left: 20px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+  background-color: black;
+  border: none;
+  text-decoration: none;
+}
+.container {
+  margin-top: 100px;
+  width: 700px;
+  margin-left: 250px;
+}
+input {
+  height: 40px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+#error {
+  display: none;
+  color: red;
+}
+#btn {
+  background-color: white;
+  height: 40px;
+  width: 80px;
+  border: none;
+}
+#isLogged {
+  display: none;
+  color: green;
+}
